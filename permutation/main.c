@@ -14,6 +14,6 @@ int main()
 void permuter(int *a, int *b)
 {
     int aux=*a;
-    *b=*a;
-    *a=aux;
+    *a=*b;
+    *b=aux;
 }
